@@ -9,7 +9,7 @@ function Navbar() {
 
             <div id="mainmenu">
                 <nav>
-                    <div class="logo">
+                    <div className="logo">
                         <img src="logo.png" alt="" />
                         <a href="/">Shop</a>
                     </div>
@@ -19,13 +19,13 @@ function Navbar() {
                         <li>Food</li>
                     </ul>
 
-                    <div class="icons-user">
+                    <div className="icons-user">
                         {/* <% if(!currentUser){ %> */}
 
-                        <a href="/login" class="btn-sec">
+                        <a href="/login" className="btn-sec">
                             Login
                         </a>
-                        <a href="/register" class="btn-sec blue">
+                        <a href="/register" className="btn-sec blue">
                             Sign Up
                         </a>
 
@@ -33,11 +33,11 @@ function Navbar() {
                     </div>
 
                     <div id="close">
-                        <i class="fa fa-close"></i>
+                        <i className="fa fa-close"></i>
                     </div>
                 </nav>
             </div>
-            <div class="padding"></div>
+            <div className="padding"></div>
         </div>
     );
 }
